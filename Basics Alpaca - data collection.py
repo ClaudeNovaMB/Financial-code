@@ -51,6 +51,8 @@ def get_assets():
     return json.loads(r.content)
 
 assets = get_assets()
+
+# Searching the assets variable for Microstrategy :-)
 counter = 0
 for i in assets:
     
