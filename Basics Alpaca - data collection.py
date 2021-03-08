@@ -2,9 +2,6 @@
 import requests, json
 from config import *
 
-
-
-
 BASE_URL = "https://paper-api.alpaca.markets"
 HEADER = {'APCA-API-KEY-ID': API_KEY, 'APCA-API-SECRET-KEY': SECRET_KEY}
 ACCOUNT_URL = "{}/v2/account".format(BASE_URL)
